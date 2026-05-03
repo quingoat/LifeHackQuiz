@@ -1,6 +1,6 @@
 # 💡 Life Hack or Urban Myth?
 
-A native Android flashcard quiz app built with **Kotlin** and **Android Studio** for the IMAD5112 Assignment 2.
+A native Android flashcard quiz app built with **Kotlin** and **Android Studio**.
 
 ---
 
