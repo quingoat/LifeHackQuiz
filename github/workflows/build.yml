@@ -1,0 +1,20 @@
+score >= (total * 0.8).toInt() -> "Great job"
+            score >= (total * 0.5).toInt() -> "Not bad"
+            else -> "Keep practising"
+        }
+        assertEquals("Master Hacker", feedback)
+    }
+
+    @Test
+    fun `feedback is correct for low score`() {
+        val score = 2
+        val total = 10
+        val feedback = when {
+            score == total -> "Master Hacker"
+            score >= (total * 0.8).toInt() -> "Great job"
+            score >= (total * 0.5).toInt() -> "Not bad"
+            else -> "Keep practising"
+        }
+        assertEquals("Keep practising", feedback)
+    }
+}
